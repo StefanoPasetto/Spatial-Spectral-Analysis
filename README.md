@@ -48,13 +48,13 @@ SSA/
 3. Installation
 ---------------
 1) Clone or download this repository:
-   git clone https://github.com/USERNAME/SSA.git
+   git clone https://github.com/StefanoPasetto/Spatial-Spectral-Analysis.git   
    cd SSA
 
-2) Install dependencies:
+3) Install dependencies:
    pip install -r requirements.txt
 
-3) (Optional) GPU Acceleration
+4) (Optional) GPU Acceleration
    If your environment is configured, this code can run on GPGPUs (both NVIDIA and AMD) via CuPy. Otherwise, it automatically defaults to CPU (NumPy).
 
    - NVIDIA: A working CUDA toolkit is required.
